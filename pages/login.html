@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <div id="navbar" class="navbar">
+            <a href="../home.html"><img class="navbar__logo" src="../assets/img/Logo.webp"></a>
+            <a href="menu.html"><h2 class="navbar__obj">Menu</h2></a>
+            <a href="usuario.html" id="linkUser"></a>
+            <div href="login.html" id="linkLogin"></div>
+            <a href="register.html" id="linkRegister"></a>
+        </div>
+    </header>
+    <main>
+        <section  class="data">
+            <article class="data__card">
+                    <h1>Inicio de sesion</h1>
+                    <div id="form_login" class="data__card__div">
+                        <h4>Email: <input class="data__card__div__input" type="email" id="email_login" placeholder="Escriba su email"></h4>
+                        <h4>Contraseña: <input class="data__card__div__input" type="password" id="password_login" placeholder="Escriba una contraseña"></h4>
+                    </div>
+                    <button type="submit" id="button_login" class="data__card__buttom">Enviar</button>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/usuario.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

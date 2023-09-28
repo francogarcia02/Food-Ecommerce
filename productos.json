@@ -1,0 +1,92 @@
+[
+  {
+    "img": "../assets/img/platos/platoPollo.jpg",
+    "name": "Plato de pollo",
+    "price": 3500,
+    "id": 1,
+    "category": "comida",
+    "desc": "Plato de pollo asado con papas rusticas, pollo criado en libertad, porcion para dos personas",
+    "alt": "Ejemplo de plato de pollo",
+    "active": true
+  },
+  {
+    "img": "../assets/img/platos/platoPicada.jpg",
+    "name": "Plato de picada",
+    "price": 3000,
+    "id": 2,
+    "category": "comida",
+    "desc":"Picada variada con distintos fiambres, porcion para cuatro personas",
+    "alt": "Ejemplo de plato de picada",
+    "active": true
+  },
+  {
+    "img": "../assets/img/platos/platoFideos.jpg",
+    "name": "Plato de fideos",
+    "price": 2500,
+    "id": 3,
+    "category": "comida",
+    "desc":"Plato de fideos frescos con queso, porcion para una persona",
+    "alt": "Ejemplo de plato de fideos",
+    "active": true
+  },
+  {
+    "img": "../assets/img/platos/platoCarne.jpg",
+    "name": "Plato de carne",
+    "price": 4000,
+    "id": 4,
+    "category": "comida",
+    "desc":"Plato de carne asada con ensaladas, la mejor calidad del pais, porcion para una persona",
+    "alt": "Ejemplo de plato de carne asada",
+    "active": true
+  },
+  {
+    "img": "../assets/img/bebidas/bebidaAgua.jpg",
+    "name": "Vaso de agua",
+    "price": 300,
+    "id": 6,
+    "category": "bebida",
+    "desc":"vaso de agua para gente fitness",
+    "alt": "Ejemplo de vaso de agua",
+    "active": true
+  },
+  {
+    "img": "../assets/img/bebidas/bebidaCerveza.jpg",
+    "name": "Jarra de cerveza",
+    "price": 1000,
+    "id": 7,
+    "category": "bebida",
+    "desc":"Jarra de cerveza alemana",
+    "alt": "Ejemplo de jarra de cerveza",
+    "active": true
+  },
+  {
+    "img": "../assets/img/bebidas/bebidaCoca.jpg",
+    "name": "Vaso de coca",
+    "price": 600,
+    "id": 8,
+    "category": "bebida",
+    "desc":"Vaso de coca refrescante",
+    "alt": "Ejemplo de vaso de coca",
+    "active": true
+  },
+  {
+    "img": "../assets/img/bebidas/bebidaJugo.jpg",
+    "name": "Vaso de jugo",
+    "price": 500,
+    "id": 9,
+    "category": "bebida",
+    "desc":"vaso de jugo de naranja exprimido a mano",
+    "alt": "Ejemplo de vaso de jugo",
+    "active": true
+  },
+  {
+    "img": "../assets/img/bebidas/bebidaVino.jpg",
+    "name": "Copa de vino",
+    "price": 900,
+    "id": 10,
+    "category": "bebida",
+    "desc":"Copa de vino jujeño añejado",
+    "alt": "Ejemplo de copa de vino",
+    "active": true
+  }
+]

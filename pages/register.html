@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <div id="navbar" class="navbar">
+            <a href="../home.html"><img class="navbar__logo" src="../assets/img/Logo.webp"></a>
+            <a href="menu.html"><h2 class="navbar__obj">Menu</h2></a>
+            <a href="usuario.html" id="linkUser"></a>
+            <a href="login.html" id="linkLogin"></a>
+            <div href="register.html" id="linkRegister"></div>
+        </div>
+    </header>
+    <main>
+        <section  class="data">
+            <article class="data__card">
+                    <h1>Registro de usuario</h1>
+                    <div id="form_register" class="data__card__div">
+                        <h4>Nombre: <input class="data__card__div__input" type="text" id="nombre" placeholder="Escriba su nombre"></h4>
+                        <h4>Apellido: <input class="data__card__div__input" id="apellido" type="text" placeholder="Escriba su apellido"></h4>
+                        <h4>Documento: <input class="data__card__div__input" id="doc" type="text" placeholder="Escriba su Documento"></h4>
+                        <h4>Dinero disponible: <input class="data__card__div__input" id="dinero" type="text" placeholder="Dinero disponible"></h4>
+                        <hr>
+                        <h4>Email: <input class="data__card__div__input" type="email" id="email" placeholder="Escriba su email"></h4>
+                        <h4>Contraseña: <input class="data__card__div__input" type="password" id="password1" placeholder="Escriba una contraseña"></h4>
+                        <h4>Repetir contraseña: <input class="data__card__div__input" type="password" id="password2" placeholder="Repita la contraseña"></h4>
+                    </div>
+                    <button type="submit" id="button_register" class="data__card__buttom">Enviar</button>
+            </article>
+            <div class="data__condiciones">
+                <p>*La contraseña debe tener entre 8 y 15 caracteres</p>
+                <p>*Debe contener numeros y caracteres(!,#,$,%,&,.,*,@)</p>
+                <p>*Deben coincidir las contraseñas</p>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/usuario.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
