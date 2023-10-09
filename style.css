@@ -468,13 +468,10 @@ header{
 /* Home Main */
 .ubicacion{
   padding: 40px;
-  max-width: 1000px;
-  margin: 20px auto;
   display: grid;
   grid-template-rows: repeat(2, auto);
   justify-items: center;
   background-color: white;
-  border-radius: 10px;
 }
 
 .ubicacion__title{
@@ -490,14 +487,12 @@ header{
 }
 
 .presentacion{
-  padding: 40px;
-  max-width: 1000px;
-  margin: 20px auto;
+  padding: 80px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-items: center;
-  background-color: white;
-  border-radius: 10px;
+  background-color: #162D4D;
+  color: #F2BEA0;
   gap: 10px;
   justify-items: center;
   align-items: center;
@@ -505,7 +500,6 @@ header{
 
 .presentacion__titulo{
   margin: 0;
-  border-bottom: solid 1px #f2f2f2;
 }
 
 .presentacion__texto{
@@ -517,13 +511,11 @@ header{
 
 .funcionalidad{
   padding: 40px;
-  max-width: 1000px;
-  margin: 20px auto;
   display: grid;
   grid-template-rows: repeat(2, auto);
   justify-items: center;
-  background-color: white;
-  border-radius: 10px;
+  background-color: none;
+  color: #F2BEA0;
 }
 
 .funcionalidad__item{
@@ -568,4 +560,32 @@ header{
 .contacto__item{
   font-weight: normal;
   margin: 5px 0 5px 0;
+}
+
+.redes{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.redes__contenedor{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.redes__logo{
+  width: 30px;
+}
+
+.whatsapp{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.whatsapp_logo{
+  width: 50px;
+  height: 50px;
 }
